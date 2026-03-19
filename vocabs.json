@@ -2,70 +2,70 @@
   {
     "id": 1,
     "thai": "ใช่",
-    "romanized": "chai",
+    "romanized": "châi",
     "english": "yes",
     "german": "ja"
   },
   {
     "id": 2,
     "thai": "ไม่",
-    "romanized": "mai",
+    "romanized": "mâi",
     "english": "no",
     "german": "nein"
   },
   {
     "id": 3,
     "thai": "ขอบคุณ",
-    "romanized": "khop khun",
+    "romanized": "khàawp khun",
     "english": "thank you",
     "german": "danke"
   },
   {
     "id": 4,
     "thai": "ขอโทษ",
-    "romanized": "kho thot",
+    "romanized": "khǎaw thôot",
     "english": "sorry/excuse me",
     "german": "entschuldigung"
   },
   {
     "id": 5,
     "thai": "สวัสดี",
-    "romanized": "sawatdee",
+    "romanized": "sà-wàt-dee",
     "english": "hello/goodbye",
     "german": "hallo/tschüss"
   },
   {
     "id": 6,
     "thai": "น้ำ",
-    "romanized": "nam",
+    "romanized": "náam",
     "english": "water",
     "german": "wasser"
   },
   {
     "id": 7,
     "thai": "กิน",
-    "romanized": "kin",
+    "romanized": "gin",
     "english": "eat",
     "german": "essen"
   },
   {
     "id": 8,
     "thai": "ข้าว",
-    "romanized": "khao",
+    "romanized": "khâao",
     "english": "rice/food",
     "german": "reis/essen"
   },
   {
     "id": 9,
     "thai": "ไป",
-    "romanized": "pai",
+    "romanized": "bpai",
     "english": "go",
     "german": "gehen"
   },
   {
     "id": 10,
     "thai": "มา",
-    "romanized": "ma",
+    "romanized": "maa",
     "english": "come",
     "german": "kommen"
   },
@@ -79,56 +79,56 @@
   {
     "id": 12,
     "thai": "มาก",
-    "romanized": "mak",
+    "romanized": "mâak",
     "english": "very/much",
     "german": "sehr/viel"
   },
   {
     "id": 13,
     "thai": "ใหญ่",
-    "romanized": "yai",
+    "romanized": "yài",
     "english": "big",
     "german": "groß"
   },
   {
     "id": 14,
     "thai": "เล็ก",
-    "romanized": "lek",
+    "romanized": "lék",
     "english": "small",
     "german": "klein"
   },
   {
     "id": 15,
     "thai": "ร้อน",
-    "romanized": "ron",
+    "romanized": "rón",
     "english": "hot",
     "german": "heiß"
   },
   {
     "id": 16,
     "thai": "หนาว",
-    "romanized": "nao",
+    "romanized": "nǎao",
     "english": "cold",
     "german": "kalt"
   },
   {
     "id": 17,
     "thai": "วันนี้",
-    "romanized": "wan nee",
+    "romanized": "wan née",
     "english": "today",
     "german": "heute"
   },
   {
     "id": 18,
     "thai": "พรุ่งนี้",
-    "romanized": "phrung nee",
+    "romanized": "phrûng née",
     "english": "tomorrow",
     "german": "morgen"
   },
   {
     "id": 19,
     "thai": "เมื่อวาน",
-    "romanized": "muea wan",
+    "romanized": "mûea waan",
     "english": "yesterday",
     "german": "gestern"
   },
@@ -149,77 +149,77 @@
   {
     "id": 22,
     "thai": "ปี",
-    "romanized": "pee",
+    "romanized": "bpii",
     "english": "year",
     "german": "jahr"
   },
   {
     "id": 23,
     "thai": "เวลา",
-    "romanized": "wela",
+    "romanized": "wee-laa",
     "english": "time",
     "german": "zeit"
   },
   {
     "id": 24,
     "thai": "เงิน",
-    "romanized": "ngoen",
+    "romanized": "ngern",
     "english": "money",
     "german": "geld"
   },
   {
     "id": 25,
     "thai": "คน",
-    "romanized": "khon",
+    "romanized": "kon",
     "english": "person",
     "german": "mensch"
   },
   {
     "id": 26,
     "thai": "ผู้ชาย",
-    "romanized": "phu chai",
+    "romanized": "phûu chaai",
     "english": "man",
     "german": "mann"
   },
   {
     "id": 27,
     "thai": "ผู้หญิง",
-    "romanized": "phu ying",
+    "romanized": "phûu yĭng",
     "english": "woman",
     "german": "frau"
   },
   {
     "id": 28,
     "thai": "เพื่อน",
-    "romanized": "phuean",
+    "romanized": "phûean",
     "english": "friend",
     "german": "freund"
   },
   {
     "id": 29,
     "thai": "บ้าน",
-    "romanized": "ban",
+    "romanized": "bâan",
     "english": "home/house",
     "german": "haus/zuhause"
   },
   {
     "id": 30,
     "thai": "ที่",
-    "romanized": "thee",
+    "romanized": "têe",
     "english": "at/place",
     "german": "bei/ort"
   },
   {
     "id": 31,
     "thai": "ของ",
-    "romanized": "khong",
+    "romanized": "khǎawng",
     "english": "of/thing",
     "german": "von/ding"
   },
   {
     "id": 32,
     "thai": "ทำ",
-    "romanized": "tham",
+    "romanized": "tam",
     "english": "do/make",
     "german": "machen/tun"
   },
@@ -233,91 +233,91 @@
   {
     "id": 34,
     "thai": "เป็น",
-    "romanized": "pen",
+    "romanized": "bpen",
     "english": "is/am/are",
     "german": "sein"
   },
   {
     "id": 35,
     "thai": "อยู่",
-    "romanized": "yu",
+    "romanized": "yùu",
     "english": "stay/live",
     "german": "bleiben/wohnen"
   },
   {
     "id": 36,
     "thai": "สวย",
-    "romanized": "suai",
+    "romanized": "sŭuay",
     "english": "beautiful",
     "german": "schön"
   },
   {
     "id": 37,
     "thai": "ชอบ",
-    "romanized": "chop",
+    "romanized": "chôp",
     "english": "like",
     "german": "mögen"
   },
   {
     "id": 38,
     "thai": "เข้าใจ",
-    "romanized": "khao jai",
+    "romanized": "khâo jai",
     "english": "understand",
     "german": "verstehen"
   },
   {
     "id": 39,
     "thai": "รู้",
-    "romanized": "ru",
+    "romanized": "rúu",
     "english": "know",
     "german": "wissen"
   },
   {
     "id": 40,
     "thai": "คิด",
-    "romanized": "khit",
+    "romanized": "kít",
     "english": "think",
     "german": "denken"
   },
   {
     "id": 41,
     "thai": "เรียก",
-    "romanized": "riak",
+    "romanized": "rîiak",
     "english": "call",
     "german": "rufen/nennen"
   },
   {
     "id": 42,
     "thai": "บอก",
-    "romanized": "bok",
+    "romanized": "bòk",
     "english": "tell",
     "german": "sagen/erzählen"
   },
   {
     "id": 43,
     "thai": "ถาม",
-    "romanized": "tham",
+    "romanized": "tăam",
     "english": "ask",
     "german": "fragen"
   },
   {
     "id": 44,
     "thai": "ตอบ",
-    "romanized": "top",
+    "romanized": "dtòp",
     "english": "answer",
     "german": "antworten"
   },
   {
     "id": 45,
     "thai": "เห็น",
-    "romanized": "hen",
+    "romanized": "hěn",
     "english": "see",
     "german": "sehen"
   },
   {
     "id": 46,
     "thai": "ดู",
-    "romanized": "du",
+    "romanized": "duu",
     "english": "look/watch",
     "german": "schauen"
   },
@@ -331,14 +331,14 @@
   {
     "id": 48,
     "thai": "อ่าน",
-    "romanized": "an",
+    "romanized": "àan",
     "english": "read",
     "german": "lesen"
   },
   {
     "id": 49,
     "thai": "เขียน",
-    "romanized": "khian",
+    "romanized": "khĭian",
     "english": "write",
     "german": "schreiben"
   },
@@ -352,14 +352,14 @@
   {
     "id": 51,
     "thai": "เล่น",
-    "romanized": "len",
+    "romanized": "lên",
     "english": "play",
     "german": "spielen"
   },
   {
     "id": 52,
     "thai": "ทำงาน",
-    "romanized": "tham ngan",
+    "romanized": "tam ngaan",
     "english": "work",
     "german": "arbeiten"
   },
@@ -373,119 +373,119 @@
   {
     "id": 54,
     "thai": "ตื่น",
-    "romanized": "tuen",
+    "romanized": "dtèun",
     "english": "wake up",
     "german": "aufwachen"
   },
   {
     "id": 55,
     "thai": "เดิน",
-    "romanized": "doen",
+    "romanized": "dern",
     "english": "walk",
     "german": "laufen/gehen"
   },
   {
     "id": 56,
     "thai": "วิ่ง",
-    "romanized": "wing",
+    "romanized": "wîng",
     "english": "run",
     "german": "rennen"
   },
   {
     "id": 57,
     "thai": "นั่ง",
-    "romanized": "nang",
+    "romanized": "nâng",
     "english": "sit",
     "german": "sitzen"
   },
   {
     "id": 58,
     "thai": "ยืน",
-    "romanized": "yuen",
+    "romanized": "yeun",
     "english": "stand",
     "german": "stehen"
   },
   {
     "id": 59,
     "thai": "ซื้อ",
-    "romanized": "sue",
+    "romanized": "séu",
     "english": "buy",
     "german": "kaufen"
   },
   {
     "id": 60,
     "thai": "ขาย",
-    "romanized": "khai",
+    "romanized": "kăai",
     "english": "sell",
     "german": "verkaufen"
   },
   {
     "id": 61,
     "thai": "แพง",
-    "romanized": "phaeng",
+    "romanized": "paeng",
     "english": "expensive",
     "german": "teuer"
   },
   {
     "id": 62,
     "thai": "ถูก",
-    "romanized": "thuk",
+    "romanized": "tùuk",
     "english": "cheap/correct",
     "german": "billig/richtig"
   },
   {
     "id": 63,
     "thai": "นิดหน่อย",
-    "romanized": "nit noi",
+    "romanized": "nít nɔ̀i",
     "english": "a little",
     "german": "ein bisschen"
   },
   {
     "id": 64,
     "thai": "อร่อย",
-    "romanized": "aroi",
+    "romanized": "à-ròi",
     "english": "delicious",
     "german": "lecker"
   },
   {
     "id": 65,
     "thai": "หิว",
-    "romanized": "hiu",
+    "romanized": "hĭw",
     "english": "hungry",
     "german": "hungrig"
   },
   {
     "id": 66,
     "thai": "อิ่ม",
-    "romanized": "im",
+    "romanized": "ìm",
     "english": "full (food)",
     "german": "satt"
   },
   {
     "id": 67,
     "thai": "เหนื่อย",
-    "romanized": "nueai",
+    "romanized": "nùeay",
     "english": "tired",
     "german": "müde"
   },
   {
     "id": 68,
     "thai": "เจ็บ",
-    "romanized": "jep",
+    "romanized": "jèp",
     "english": "hurt",
     "german": "schmerzen/wehtun"
   },
   {
     "id": 69,
     "thai": "ช่วย",
-    "romanized": "chuai",
+    "romanized": "chûuay",
     "english": "help",
     "german": "helfen"
   },
   {
     "id": 70,
     "thai": "หยุด",
-    "romanized": "yut",
+    "romanized": "yùt",
     "english": "stop",
     "german": "stoppen"
   },
@@ -499,63 +499,63 @@
   {
     "id": 72,
     "thai": "ช้า",
-    "romanized": "cha",
+    "romanized": "cháa",
     "english": "slow",
     "german": "langsam"
   },
   {
     "id": 73,
     "thai": "ใหม่",
-    "romanized": "mai",
+    "romanized": "mài",
     "english": "new",
     "german": "neu"
   },
   {
     "id": 74,
     "thai": "เก่า",
-    "romanized": "kao",
+    "romanized": "gào",
     "english": "old (things)",
     "german": "alt (dinge)"
   },
   {
     "id": 75,
     "thai": "ไกล",
-    "romanized": "klai",
+    "romanized": "glai",
     "english": "far",
     "german": "weit"
   },
   {
     "id": 76,
     "thai": "ใกล้",
-    "romanized": "klai (short)",
+    "romanized": "glâi",
     "english": "near",
     "german": "nah"
   },
   {
     "id": 77,
     "thai": "อะไร",
-    "romanized": "arai",
+    "romanized": "à-rai",
     "english": "what",
     "german": "was"
   },
   {
     "id": 78,
     "thai": "ที่ไหน",
-    "romanized": "thee nai",
+    "romanized": "têe năi",
     "english": "where",
     "german": "wo"
   },
   {
     "id": 79,
     "thai": "เมื่อไหร่",
-    "romanized": "muea rai",
+    "romanized": "mûea rài",
     "english": "when",
     "german": "wann"
   },
   {
     "id": 80,
     "thai": "ทำไม",
-    "romanized": "tham mai",
+    "romanized": "tam-mai",
     "english": "why",
     "german": "warum"
   },
@@ -569,42 +569,42 @@
   {
     "id": 82,
     "thai": "อย่างไร",
-    "romanized": "yang rai",
+    "romanized": "yàang rai",
     "english": "how",
     "german": "wie"
   },
   {
     "id": 83,
     "thai": "เท่าไหร่",
-    "romanized": "thao rai",
+    "romanized": "thâo rài",
     "english": "how much",
     "german": "wie viel"
   },
   {
     "id": 84,
     "thai": "นี้",
-    "romanized": "nee",
+    "romanized": "née",
     "english": "this",
     "german": "dies"
   },
   {
     "id": 85,
     "thai": "นั้น",
-    "romanized": "nan",
+    "romanized": "nán",
     "english": "that",
     "german": "das/jenes"
   },
   {
     "id": 86,
     "thai": "ที่นี่",
-    "romanized": "thee nee",
+    "romanized": "têe née",
     "english": "here",
     "german": "hier"
   },
   {
     "id": 87,
     "thai": "ที่นั่น",
-    "romanized": "thee nan",
+    "romanized": "têe nân",
     "english": "there",
     "german": "dort"
   },
@@ -618,7 +618,7 @@
   {
     "id": 89,
     "thai": "แล้ว",
-    "romanized": "laeo",
+    "romanized": "láew",
     "english": "already",
     "german": "schon/bereits"
   },
@@ -632,7 +632,7 @@
   {
     "id": 91,
     "thai": "แต่",
-    "romanized": "tae",
+    "romanized": "dtàe",
     "english": "but",
     "german": "aber"
   },
@@ -646,91 +646,91 @@
   {
     "id": 93,
     "thai": "หรือ",
-    "romanized": "rue",
+    "romanized": "rĕu",
     "english": "or",
     "german": "oder"
   },
   {
     "id": 94,
     "thai": "ด้วย",
-    "romanized": "duai",
+    "romanized": "dûuay",
     "english": "also/with",
     "german": "auch/mit"
   },
   {
     "id": 95,
     "thai": "ห้อง",
-    "romanized": "hong",
+    "romanized": "hông",
     "english": "room",
     "german": "zimmer/raum"
   },
   {
     "id": 96,
     "thai": "รถ",
-    "romanized": "rot",
+    "romanized": "rót",
     "english": "car",
     "german": "auto"
   },
   {
     "id": 97,
     "thai": "ร้าน",
-    "romanized": "ran",
+    "romanized": "ráan",
     "english": "shop/store",
     "german": "laden/geschäft"
   },
   {
     "id": 98,
     "thai": "โรงเรียน",
-    "romanized": "rong rian",
+    "romanized": "roong rian",
     "english": "school",
     "german": "schule"
   },
   {
     "id": 99,
     "thai": "โรงแรม",
-    "romanized": "rong raem",
+    "romanized": "roong raem",
     "english": "hotel",
     "german": "hotel"
   },
   {
     "id": 100,
     "thai": "โรงพยาบาล",
-    "romanized": "rong phayaban",
+    "romanized": "roong phá-yaa-baan",
     "english": "hospital",
     "german": "krankenhaus"
   },
   {
     "id": 101,
     "thai": "สนามบิน",
-    "romanized": "sanam bin",
+    "romanized": "sà-năam bin",
     "english": "airport",
     "german": "flughafen"
   },
   {
     "id": 102,
     "thai": "สถานี",
-    "romanized": "sathani",
+    "romanized": "sà-thăa-nii",
     "english": "station",
     "german": "station/bahnhof"
   },
   {
     "id": 103,
     "thai": "รถไฟ",
-    "romanized": "rot fai",
+    "romanized": "rót fai",
     "english": "train",
     "german": "zug"
   },
   {
     "id": 104,
     "thai": "เครื่องบิน",
-    "romanized": "khrueang bin",
+    "romanized": "khrûeang bin",
     "english": "airplane",
     "german": "flugzeug"
   },
   {
     "id": 105,
     "thai": "ตั๋ว",
-    "romanized": "tua",
+    "romanized": "dtǔa",
     "english": "ticket",
     "german": "ticket/fahrkarte"
   }
