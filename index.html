@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joomy Vocab Trainer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Joomy Vocab Trainer</h1>
+            <div id="progress-container" class="hidden">
+                <div id="progress-bar"></div>
+            </div>
+        </header>
+
+        <main id="main-content">
+            
+            <!-- Settings View -->
+            <section id="view-settings" class="view active">
+                <h2>Configure Your Session</h2>
+                <div class="form-group">
+                    <label for="word-count">How many words to train?</label>
+                    <input type="number" id="word-count" value="10" min="1" max="100">
+                </div>
+                
+                <div class="form-group">
+                    <label for="learning-mode">Learning Mode</label>
+                    <select id="learning-mode">
+                        <option value="rom-de">Show Thai Romanized -> Answer German</option>
+                        <option value="th-en">Show Thai -> Answer English</option>
+                        <option value="th-de">Show Thai -> Answer German</option>
+                        <option value="en-th">Show English -> Answer Thai (Romanized)</option>
+                        <option value="mix">Random Mix</option>
+                    </select>
+                </div>
+
+                <button id="btn-start" class="btn-primary">Start Training</button>
+            </section>
+
+            <!-- Trainer View -->
+            <section id="view-trainer" class="view hidden">
+                <div class="card-scene">
+                    <div class="card" id="flashcard">
+                        <div class="card-face card-front">
+                            <span class="language-label" id="front-lang">Thai</span>
+                            <div class="word-text" id="front-word">สวัสดี</div>
+                        </div>
+                        <div class="card-face card-back">
+                            <span class="language-label" id="back-lang">English</span>
+                            <div class="word-text" id="back-word">Hello</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <p id="hint-text">Click the card to reveal the answer</p>
+
+                <div class="controls hidden" id="feedback-controls">
+                    <button id="btn-wrong" class="btn-danger">I was Wrong</button>
+                    <button id="btn-right" class="btn-success">I was Right</button>
+                </div>
+            </section>
+
+            <!-- Summary View -->
+            <section id="view-summary" class="view hidden">
+                <h2>Session Complete!</h2>
+                <div class="stats">
+                    <div class="stat-box">
+                        <h3>Right</h3>
+                        <span id="score-right" class="score-success">0</span>
+                    </div>
+                    <div class="stat-box">
+                        <h3>Wrong</h3>
+                        <span id="score-wrong" class="score-danger">0</span>
+                    </div>
+                </div>
+                <button id="btn-restart" class="btn-primary">Train Again</button>
+            </section>
+
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
