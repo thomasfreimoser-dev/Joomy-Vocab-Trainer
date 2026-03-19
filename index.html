@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joomy Vocab Trainer</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -27,14 +27,30 @@
                 </div>
                 
                 <div class="form-group">
-                    <label for="learning-mode">Learning Mode</label>
-                    <select id="learning-mode">
-                        <option value="rom-de">Show Thai Romanized -> Answer German</option>
-                        <option value="th-en">Show Thai -> Answer English</option>
-                        <option value="th-de">Show Thai -> Answer German</option>
-                        <option value="en-th">Show English -> Answer Thai (Romanized)</option>
-                        <option value="mix">Random Mix</option>
+                    <label for="lang-front">Front Language</label>
+                    <select id="lang-front">
+                        <option value="thai">Thai</option>
+                        <option value="romanized" selected>Thai Romanized</option>
+                        <option value="english">English</option>
+                        <option value="german">German</option>
                     </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="lang-back">Back Language</label>
+                    <select id="lang-back">
+                        <option value="thai">Thai</option>
+                        <option value="romanized">Thai Romanized</option>
+                        <option value="english" selected>English</option>
+                        <option value="german">German</option>
+                    </select>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <label>
+                        <input type="checkbox" id="mode-mixed">
+                        Mixed Mode (Randomly swap Front & Back)
+                    </label>
                 </div>
 
                 <button id="btn-start" class="btn-primary">Start Training</button>

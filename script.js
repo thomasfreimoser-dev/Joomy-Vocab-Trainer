@@ -1,9 +1,8 @@
-// Data & State
 let allWords = [];
 let sessionWords = [];
 let currentIndex = 0;
 let score = { right: 0, wrong: 0 };
-let currentMode = 'th-en';
+let activeSettings = { front: 'romanized', back: 'english', mixed: false };
 let isFlipped = false;
 
 // DOM Elements
@@ -12,7 +11,9 @@ const viewTrainer = document.getElementById('view-trainer');
 const viewSummary = document.getElementById('view-summary');
 
 const inputWordCount = document.getElementById('word-count');
-const selectMode = document.getElementById('learning-mode');
+const selectFront = document.getElementById('lang-front');
+const selectBack = document.getElementById('lang-back');
+const checkMixed = document.getElementById('mode-mixed');
 const btnStart = document.getElementById('btn-start');
 
 const flashcard = document.getElementById('flashcard');
@@ -64,7 +65,14 @@ btnStart.addEventListener('click', () => {
     if (isNaN(count) || count < 1) count = 10;
     if (count > allWords.length) count = allWords.length;
 
-    currentMode = selectMode.value;
+    activeSettings.front = selectFront.value;
+    activeSettings.back = selectBack.value;
+    activeSettings.mixed = checkMixed.checked;
+
+    if (activeSettings.front === activeSettings.back) {
+        alert("Please select different languages for Front and Back!");
+        return;
+    }
     
     // Select and shuffle words
     sessionWords = shuffleArray(allWords).slice(0, count);
@@ -87,36 +95,21 @@ function showCard() {
 
     const wordObj = sessionWords[currentIndex];
     
-    // Determine languages for front and back based on mode
-    let front = {}, back = {};
+    function getLangConfig(langKey) {
+        switch(langKey) {
+            case 'thai': return { lang: 'Thai', text: wordObj.thai };
+            case 'romanized': return { lang: 'Thai (Rom)', text: wordObj.romanized };
+            case 'english': return { lang: 'English', text: wordObj.english };
+            case 'german': return { lang: 'German', text: wordObj.german };
+            default: return { lang: 'Unknown', text: '' };
+        }
+    }
+
+    let front = getLangConfig(activeSettings.front);
+    let back = getLangConfig(activeSettings.back);
     
-    let modeToUse = currentMode;
-    if (modeToUse === 'mix') {
-        const modes = ['rom-de', 'th-en', 'th-de', 'en-th'];
-        modeToUse = modes[Math.floor(Math.random() * modes.length)];
-    }
-
-    switch (modeToUse) {
-        case 'rom-de':
-            front = { lang: 'Thai (Rom)', text: wordObj.romanized };
-            back = { lang: 'German', text: wordObj.german };
-            break;
-        case 'th-en':
-            front = { lang: 'Thai', text: wordObj.thai };
-            back = { lang: 'English', text: wordObj.english };
-            break;
-        case 'th-de':
-            front = { lang: 'Thai', text: wordObj.thai };
-            back = { lang: 'German', text: wordObj.german };
-            break;
-        case 'en-th':
-            front = { lang: 'English', text: wordObj.english };
-            back = { lang: 'Thai (Rom)', text: wordObj.romanized };
-            break;
-    }
-
-    // Randomize direction sometimes in mix mode (e.g. sometimes Thai -> EN, sometimes EN -> Thai)
-    if (currentMode === 'mix' && Math.random() > 0.5) {
+    // Mixed Mode logic (50% chance to swap front and back)
+    if (activeSettings.mixed && Math.random() > 0.5) {
         let temp = front;
         front = back;
         back = temp;
@@ -154,7 +147,24 @@ function handleAnswer(isRight) {
     updateProgress();
 
     if (currentIndex < sessionWords.length) {
-        showCard();
+        const scene = document.querySelector('.card-scene');
+        scene.classList.add('animate-next');
+        feedbackControls.classList.add('hidden');
+        
+        setTimeout(() => {
+            // Halfway through animation (opacity 0)
+            flashcard.style.transition = 'none';
+            showCard();
+            
+            // Force reflow
+            void flashcard.offsetWidth;
+            // Restore transition
+            flashcard.style.transition = '';
+        }, 200);
+
+        setTimeout(() => {
+            scene.classList.remove('animate-next');
+        }, 400);
     } else {
         endSession();
     }
