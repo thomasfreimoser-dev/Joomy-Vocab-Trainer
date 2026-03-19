@@ -61,13 +61,24 @@ function shuffleArray(array) {
 
 // Start Session
 btnStart.addEventListener('click', () => {
-    let count = parseInt(inputWordCount.value, 10);
+    const wordCountEl = document.getElementById('word-count');
+    const frontEl = document.getElementById('lang-front');
+    const backEl = document.getElementById('lang-back');
+    const mixedEl = document.getElementById('mode-mixed');
+    
+    // Fallback error handling if elements are still missing due to a cached HTML file
+    if (!frontEl || !backEl) {
+        alert("The new UI elements aren't loaded properly in the HTML yet. Please hard-refresh your browser!");
+        return;
+    }
+
+    let count = parseInt(wordCountEl.value, 10);
     if (isNaN(count) || count < 1) count = 10;
     if (count > allWords.length) count = allWords.length;
 
-    activeSettings.front = selectFront.value;
-    activeSettings.back = selectBack.value;
-    activeSettings.mixed = checkMixed.checked;
+    activeSettings.front = frontEl.value;
+    activeSettings.back = backEl.value;
+    activeSettings.mixed = mixedEl.checked;
 
     if (activeSettings.front === activeSettings.back) {
         alert("Please select different languages for Front and Back!");
